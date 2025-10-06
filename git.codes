@@ -1,0 +1,93 @@
+🧠 GIT COMMAND CHEAT SHEET (For Everyday Use)
+🏗️ 1. Setup (do once per computer)
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+
+
+Tells Git who you are — used in all your commits.
+
+📁 2. Start a New Local Project
+git init
+
+
+Turns your folder into a Git-tracked project.
+
+🧩 3. Connect to GitHub
+git remote add origin https://github.com/username/repo-name.git
+
+
+Links your local project to the GitHub repository.
+
+Check it later with:
+
+git remote -v
+
+💾 4. Save Your Work (Locally)
+
+When you change files and want to save progress:
+
+git add .
+git commit -m "Describe what you changed"
+
+
+git add . = include all files for saving
+
+git commit -m "..." = make a snapshot of your work
+
+☁️ 5. Upload to GitHub
+git push -u origin main
+
+
+Sends your commits to GitHub (first time use -u, then later just git push).
+
+🔄 6. Download Updates (from GitHub)
+
+If you or someone else updated the repo online:
+
+git pull
+
+
+Fetches and merges the newest version from GitHub.
+
+🔍 7. Check Status & History
+git status
+
+
+Shows what’s changed, staged, or committed.
+
+git log
+
+
+Shows commit history with messages and authors.
+
+🧹 8. Undo or Fix Mistakes (basics)
+git restore filename
+
+
+Undo local file changes before committing.
+
+git reset --soft HEAD~1
+
+
+Undo your last commit (but keep changes in files).
+
+🧭 9. Branching (optional for now)
+
+Later, when you work on bigger projects:
+
+git branch new-feature
+git checkout new-feature
+
+
+Creates and switches to a new branch.
+
+⚙️ 10. Quick Reference
+Action	Command
+Initialize repo	git init
+Add files	git add .
+Commit changes	git commit -m "message"
+Connect remote	git remote add origin <url>
+Push to GitHub	git push
+Pull updates	git pull
+Check status	git status
+Check history	git log
