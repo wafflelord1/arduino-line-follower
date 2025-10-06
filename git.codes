@@ -91,3 +91,11 @@ Push to GitHub	git push
 Pull updates	git pull
 Check status	git status
 Check history	git log
+| Action         | Git (Terminal)           | GitHub Desktop                |
+| -------------- | ------------------------ | ----------------------------- |
+| Create repo    | `git init`               | Click “Create new repository” |
+| Add files      | `git add .`              | Click “Commit to main”        |
+| Commit         | `git commit -m "msg"`    | Fill message box + Commit     |
+| Push to GitHub | `git push`               | Click “Push origin”           |
+| Pull updates   | `git pull`               | Click “Fetch origin”          |
+| See changes    | `git status`, `git diff` | See side-by-side view         |
