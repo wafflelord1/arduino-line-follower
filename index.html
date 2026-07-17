@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KAGE // Anime Simulcast</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Bangers&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <button class="nav-burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <a href="#top" class="logo">
+      <span class="logo-mark">影</span>
+      <span class="logo-text">KAGE<span class="logo-dot">.</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#top" class="active">Home</a>
+      <a href="#simulcast">Anime</a>
+      <a href="#movies">Movies</a>
+      <a href="#categories">Genres</a>
+      <a href="#footer">About</a>
+    </nav>
+
+    <div class="nav-actions">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" class="search-icon" aria-hidden="true"><path d="M21 21l-4.35-4.35M11 19a8 8 0 1 1 0-16 8 8 0 0 1 0 16Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input type="text" placeholder="Search titles, genres, studios…" aria-label="Search">
+      </div>
+      <button class="btn-ghost">Login</button>
+      <button class="btn-neon">Join Free</button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-beams" aria-hidden="true"></div>
+  <div class="hero-grid">
+
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="pulse-dot"></span>Simulcasting now — Ep. 07 airs in 02:14:56</p>
+      <h1 class="hero-title">
+        Same-Day Release
+        <span class="hero-title-sub">as Japan.</span>
+      </h1>
+      <p class="hero-desc">
+        No delays, no fansubs, no waiting a season behind. KAGE drops every episode the moment it airs in Tokyo — subbed, dubbed, and ready to binge.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-neon btn-lg">▶ Watch Ep. 07</button>
+        <button class="btn-outline btn-lg">+ Add to List</button>
+      </div>
+      <div class="hero-meta">
+        <span class="tag tag-yellow">SUB</span>
+        <span class="tag tag-purple">DUB</span>
+        <span class="tag">TV · 24 EP</span>
+        <span class="tag">Action / Fantasy</span>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <div class="poster-stack">
+        <div class="poster p1" style="--g1:#a855f7;--g2:#1b0f2e;">ASHEN<br>BLADE</div>
+        <div class="poster p2" style="--g1:#fbbf24;--g2:#3d2a06;">NOVA<br>STRIKE</div>
+        <div class="poster p3 hero-focus" style="--g1:#a855f7;--g2:#fbbf24;">CRIMSON<br>TIDE</div>
+        <div class="poster p4" style="--g1:#6d28d9;--g2:#160a24;">GHOST<br>FREQ.</div>
+        <div class="poster p5" style="--g1:#eab308;--g2:#2b1c04;">IRON<br>LOTUS</div>
+      </div>
+      <div class="glow-orb orb-purple"></div>
+      <div class="glow-orb orb-yellow"></div>
+    </div>
+
+  </div>
+  <div class="scroll-cue" aria-hidden="true"><span></span>Scroll</div>
+</section>
+
+<main id="simulcast">
+
+  <!-- ============ ROW: SAME DAY RELEASE ============ -->
+  <section class="row-section">
+    <div class="row-head">
+      <h2><span class="row-accent">01</span> Same-Day Release</h2>
+      <div class="row-controls">
+        <button class="scroll-btn" data-dir="-1" data-target="row1">‹</button>
+        <button class="scroll-btn" data-dir="1" data-target="row1">›</button>
+      </div>
+    </div>
+    <div class="card-row" id="row1">
+      <article class="card new" style="--g1:#a855f7;--g2:#180b28;">
+        <div class="card-thumb"><span class="card-title-mini">ASHEN<br>BLADE</span><div class="play-hover">▶</div></div>
+        <span class="badge badge-yellow">NEW EP</span>
+        <h3>Ashen Blade</h3><p class="card-sub">Action · Ep 07</p>
+      </article>
+      <article class="card" style="--g1:#fbbf24;--g2:#3b2a08;">
+        <div class="card-thumb"><span class="card-title-mini">NEON<br>REQUIEM</span><div class="play-hover">▶</div></div>
+        <span class="badge badge-purple">SIMULCAST</span>
+        <h3>Neon Requiem</h3><p class="card-sub">Sci-Fi · Ep 12</p>
+      </article>
+      <article class="card" style="--g1:#7c3aed;--g2:#160a26;">
+        <div class="card-thumb"><span class="card-title-mini">STARLESS<br>VOW</span><div class="play-hover">▶</div></div>
+        <span class="badge badge-yellow">NEW EP</span>
+        <h3>Starless Vow</h3><p class="card-sub">Drama · Ep 03</p>
+      </article>
+      <article class="card" style="--g1:#eab308;--g2:#2c1e05;">
+        <div class="card-thumb"><span class="card-title-mini">CRIMSON<br>TIDE</span><div class="play-hover">▶</div></div>
+        <span class="badge badge-purple">SIMULCAST</span>
+        <h3>Crimson Tide Academy</h3><p class="card-sub">Action · Ep 09</p>
+      </article>
+      <article class="card" style="--g1:#a855f7;--g2:#1c0f30;">
+        <div class="card-thumb"><span class="card-title-mini">GHOST<br>FREQUENCY</span><div class="play-hover">▶</div></div>
+        <span class="badge badge-yellow">NEW EP</span>
+        <h3>Ghost Frequency</h3><p class="card-sub">Mystery · Ep 05</p>
+      </article>
+      <article class="card" style="--g1:#f59e0b;--g2:#331f04;">
+        <div class="card-thumb"><span class="card-title-mini">IRON<br>LOTUS</span><div class="play-hover">▶</div></div>
+        <span class="badge badge-purple">SIMULCAST</span>
+        <h3>Iron Lotus</h3><p class="card-sub">Fantasy · Ep 14</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ ROW: POPULAR ============ -->
+  <section class="row-section">
+    <div class="row-head">
+      <h2><span class="row-accent">02</span> Popular This Season</h2>
+      <div class="row-controls">
+        <button class="scroll-btn" data-dir="-1" data-target="row2">‹</button>
+        <button class="scroll-btn" data-dir="1" data-target="row2">›</button>
+      </div>
+    </div>
+    <div class="card-row" id="row2">
+      <article class="card" style="--g1:#8b5cf6;--g2:#150a28;">
+        <div class="card-thumb"><span class="card-title-mini">MOONLIT<br>WANDERER</span><div class="play-hover">▶</div></div>
+        <span class="badge badge-hot">#1 TRENDING</span>
+        <h3>Moonlit Wanderer</h3><p class="card-sub">Fantasy · 24 Ep</p>
+      </article>
+      <article class="card" style="--g1:#facc15;--g2:#2e2004;">
+        <div class="card-thumb"><span class="card-title-mini">SAKURA<br>STATIC</span><div class="play-hover">▶</div></div>
+        <span class="badge badge-hot">#2 TRENDING</span>
+        <h3>Sakura Static</h3><p class="card-sub">Slice of Life · 12 Ep</p>
+      </article>
+      <article class="card" style="--g1:#9333ea;--g2:#170a29;">
+        <div class="card-thumb"><span class="card-title-mini">VOID<br>WALKER</span><div class="play-hover">▶</div></div>
+        <h3>Voidwalker</h3><p class="card-sub">Sci-Fi · 16 Ep</p>
+      </article>
+      <article class="card" style="--g1:#eab308;--g2:#291c04;">
+        <div class="card-thumb"><span class="card-title-mini">PAPER CRANE<br>DETECTIVE</span><div class="play-hover">▶</div></div>
+        <h3>Paper Crane Detective</h3><p class="card-sub">Mystery · 22 Ep</p>
+      </article>
+      <article class="card" style="--g1:#a855f7;--g2:#1a0e30;">
+        <div class="card-thumb"><span class="card-title-mini">THUNDER<br>RONIN</span><div class="play-hover">▶</div></div>
+        <h3>Thunder Ronin</h3><p class="card-sub">Action · 26 Ep</p>
+      </article>
+      <article class="card" style="--g1:#fbbf24;--g2:#332405;">
+        <div class="card-thumb"><span class="card-title-mini">GLASS<br>KINGDOM</span><div class="play-hover">▶</div></div>
+        <h3>Glass Kingdom</h3><p class="card-sub">Fantasy · 18 Ep</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ ROW: ACTION ============ -->
+  <section class="row-section">
+    <div class="row-head">
+      <h2><span class="row-accent">03</span> Action &amp; Adventure</h2>
+      <div class="row-controls">
+        <button class="scroll-btn" data-dir="-1" data-target="row3">‹</button>
+        <button class="scroll-btn" data-dir="1" data-target="row3">›</button>
+      </div>
+    </div>
+    <div class="card-row" id="row3">
+      <article class="card" style="--g1:#a855f7;--g2:#170a28;"><div class="card-thumb"><span class="card-title-mini">BLADE OF<br>EMBERS</span><div class="play-hover">▶</div></div><h3>Blade of Embers</h3><p class="card-sub">Action · 24 Ep</p></article>
+      <article class="card" style="--g1:#f59e0b;--g2:#2e1f05;"><div class="card-thumb"><span class="card-title-mini">NOVA<br>STRIKE</span><div class="play-hover">▶</div></div><h3>Nova Strike</h3><p class="card-sub">Action · 12 Ep</p></article>
+      <article class="card" style="--g1:#7c3aed;--g2:#160a26;"><div class="card-thumb"><span class="card-title-mini">WOLF'S<br>REQUIEM</span><div class="play-hover">▶</div></div><h3>Wolf's Requiem</h3><p class="card-sub">Action · 20 Ep</p></article>
+      <article class="card" style="--g1:#eab308;--g2:#2c1e05;"><div class="card-thumb"><span class="card-title-mini">STEEL<br>PHANTOM</span><div class="play-hover">▶</div></div><h3>Steel Phantom</h3><p class="card-sub">Action · 13 Ep</p></article>
+      <article class="card" style="--g1:#a855f7;--g2:#1c0f30;"><div class="card-thumb"><span class="card-title-mini">CRIMSON<br>FANG</span><div class="play-hover">▶</div></div><h3>Crimson Fang</h3><p class="card-sub">Action · 24 Ep</p></article>
+      <article class="card" style="--g1:#facc15;--g2:#332405;"><div class="card-thumb"><span class="card-title-mini">ZERO<br>HORIZON</span><div class="play-hover">▶</div></div><h3>Zero Horizon</h3><p class="card-sub">Action · 26 Ep</p></article>
+    </div>
+  </section>
+
+  <!-- ============ ROW: ROMANCE ============ -->
+  <section class="row-section">
+    <div class="row-head">
+      <h2><span class="row-accent">04</span> Romance</h2>
+      <div class="row-controls">
+        <button class="scroll-btn" data-dir="-1" data-target="row4">‹</button>
+        <button class="scroll-btn" data-dir="1" data-target="row4">›</button>
+      </div>
+    </div>
+    <div class="card-row" id="row4">
+      <article class="card" style="--g1:#f472b6;--g2:#2c0d1f;"><div class="card-thumb"><span class="card-title-mini">TWO SKIES,<br>ONE STAR</span><div class="play-hover">▶</div></div><h3>Two Skies, One Star</h3><p class="card-sub">Romance · 12 Ep</p></article>
+      <article class="card" style="--g1:#fbbf24;--g2:#332405;"><div class="card-thumb"><span class="card-title-mini">PAPER<br>HEARTS</span><div class="play-hover">▶</div></div><h3>Paper Hearts</h3><p class="card-sub">Romance · 10 Ep</p></article>
+      <article class="card" style="--g1:#a855f7;--g2:#1c0f30;"><div class="card-thumb"><span class="card-title-mini">MIDNIGHT<br>CONFESSION</span><div class="play-hover">▶</div></div><h3>Midnight Confession</h3><p class="card-sub">Romance · 24 Ep</p></article>
+      <article class="card" style="--g1:#f9a8d4;--g2:#2c0d1f;"><div class="card-thumb"><span class="card-title-mini">CHERRY BLOSSOM<br>DIARIES</span><div class="play-hover">▶</div></div><h3>Cherry Blossom Diaries</h3><p class="card-sub">Romance · 12 Ep</p></article>
+      <article class="card" style="--g1:#eab308;--g2:#291c04;"><div class="card-thumb"><span class="card-title-mini">FIRST<br>SNOWFALL</span><div class="play-hover">▶</div></div><h3>First Snowfall</h3><p class="card-sub">Romance · 13 Ep</p></article>
+      <article class="card" style="--g1:#9333ea;--g2:#170a29;"><div class="card-thumb"><span class="card-title-mini">LETTERS TO<br>TOMORROW</span><div class="play-hover">▶</div></div><h3>Letters to Tomorrow</h3><p class="card-sub">Romance · 24 Ep</p></article>
+    </div>
+  </section>
+
+  <!-- ============ ROW: MOVIES ============ -->
+  <section class="row-section" id="movies">
+    <div class="row-head">
+      <h2><span class="row-accent">05</span> Movies</h2>
+      <div class="row-controls">
+        <button class="scroll-btn" data-dir="-1" data-target="row5">‹</button>
+        <button class="scroll-btn" data-dir="1" data-target="row5">›</button>
+      </div>
+    </div>
+    <div class="card-row" id="row5">
+      <article class="card wide" style="--g1:#a855f7;--g2:#150a28;"><div class="card-thumb"><span class="card-title-mini">THE LAST EMBER</span><div class="play-hover">▶</div></div><span class="badge badge-purple">MOVIE</span><h3>The Last Ember</h3><p class="card-sub">2h 04m · Fantasy</p></article>
+      <article class="card wide" style="--g1:#fbbf24;--g2:#332405;"><div class="card-thumb"><span class="card-title-mini">SKYBOUND</span><div class="play-hover">▶</div></div><span class="badge badge-purple">MOVIE</span><h3>Skybound: The Film</h3><p class="card-sub">1h 52m · Adventure</p></article>
+      <article class="card wide" style="--g1:#7c3aed;--g2:#160a26;"><div class="card-thumb"><span class="card-title-mini">ECHOES OF<br>YESTERDAY</span><div class="play-hover">▶</div></div><span class="badge badge-purple">MOVIE</span><h3>Echoes of Yesterday</h3><p class="card-sub">1h 47m · Drama</p></article>
+      <article class="card wide" style="--g1:#eab308;--g2:#291c04;"><div class="card-thumb"><span class="card-title-mini">WANDERER'S<br>REQUIEM</span><div class="play-hover">▶</div></div><span class="badge badge-purple">MOVIE</span><h3>Wanderer's Requiem: Finale</h3><p class="card-sub">2h 11m · Action</p></article>
+      <article class="card wide" style="--g1:#a855f7;--g2:#1c0f30;"><div class="card-thumb"><span class="card-title-mini">STARLIGHT<br>OVER KYO</span><div class="play-hover">▶</div></div><span class="badge badge-purple">MOVIE</span><h3>Starlight Over Kyo</h3><p class="card-sub">1h 58m · Romance</p></article>
+    </div>
+  </section>
+
+  <!-- ============ CATEGORIES ============ -->
+  <section class="categories" id="categories">
+    <div class="row-head">
+      <h2><span class="row-accent">06</span> Browse by Genre &amp; Region</h2>
+    </div>
+    <div class="cat-grid">
+      <a href="#" class="cat-card" style="--cg1:#dc2626;--cg2:#facc15;"><span class="cat-icon">龍</span><h3>Chinese Anime</h3><p>Donghua · 120+ titles</p></a>
+      <a href="#" class="cat-card" style="--cg1:#4f46e5;--cg2:#a855f7;"><span class="cat-icon">한</span><h3>Korean Anime</h3><p>Manhwa · 80+ titles</p></a>
+      <a href="#" class="cat-card" style="--cg1:#f59e0b;--cg2:#facc15;"><span class="cat-icon">☺</span><h3>Comedy</h3><p>Feel-good · 200+ titles</p></a>
+      <a href="#" class="cat-card" style="--cg1:#06b6d4;--cg2:#8b5cf6;"><span class="cat-icon">✦</span><h3>Sci-Fi</h3><p>Future worlds · 90+ titles</p></a>
+      <a href="#" class="cat-card" style="--cg1:#7c3aed;--cg2:#ec4899;"><span class="cat-icon">⚔</span><h3>Fantasy</h3><p>Magic &amp; myth · 150+ titles</p></a>
+      <a href="#" class="cat-card" style="--cg1:#111827;--cg2:#7c3aed;"><span class="cat-icon">☾</span><h3>Horror</h3><p>Nightmare fuel · 45+ titles</p></a>
+      <a href="#" class="cat-card" style="--cg1:#eab308;--cg2:#a855f7;"><span class="cat-icon">⟲</span><h3>Isekai</h3><p>Other worlds · 110+ titles</p></a>
+      <a href="#" class="cat-card" style="--cg1:#f97316;--cg2:#facc15;"><span class="cat-icon">⚡</span><h3>Sports</h3><p>Team spirit · 60+ titles</p></a>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      <a href="#top" class="logo"><span class="logo-mark">影</span><span class="logo-text">KAGE<span class="logo-dot">.</span></span></a>
+      <p>Every episode, the same day it airs in Japan. Built for people who don't want to wait.</p>
+      <div class="socials">
+        <a href="#" aria-label="X / Twitter" class="social-btn">𝕏</a>
+        <a href="#" aria-label="Instagram" class="social-btn">◎</a>
+        <a href="#" aria-label="Discord" class="social-btn">◈</a>
+        <a href="#" aria-label="YouTube" class="social-btn">▶</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Browse</h4>
+      <a href="#top">Home</a>
+      <a href="#simulcast">Simulcast</a>
+      <a href="#movies">Movies</a>
+      <a href="#categories">Genres</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#">About KAGE</a>
+      <a href="#">Careers</a>
+      <a href="#">Press</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Support</h4>
+      <a href="#">Help Center</a>
+      <a href="#">Device Support</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 KAGE Streaming. All anime titles are fictional demo content.</p>
+    <p class="made-with">Designed for anime fans, everywhere.</p>
+  </div>
+</footer>
+
+<script>
+  // Sticky navbar background on scroll
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 40);
+  });
+
+  // Mobile menu toggle
+  const burger = document.getElementById('burger');
+  const navLinks = document.getElementById('navLinks');
+  burger.addEventListener('click', () => {
+    navLinks.classList.toggle('open');
+    burger.classList.toggle('open');
+  });
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    navLinks.classList.remove('open');
+    burger.classList.remove('open');
+  }));
+
+  // Horizontal row scroll buttons
+  document.querySelectorAll('.scroll-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const row = document.getElementById(btn.dataset.target);
+      const dir = parseInt(btn.dataset.dir, 10);
+      row.scrollBy({ left: dir * row.clientWidth * 0.8, behavior: 'smooth' });
+    });
+  });
+</script>
+
+</body>
+</html>
